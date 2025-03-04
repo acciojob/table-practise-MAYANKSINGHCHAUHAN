@@ -3,53 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Details</title>
+    <title>Student Details Table</title>
     <style>
         table {
-            width: 60%;
+            width: auto;
             background-color: yellow;
             border-collapse: collapse;
-            margin: 20px auto;
+            text-align: center;
+        }
+        table, th, td {
+            border: 1px solid black;
         }
         th, td {
-            border: 1px solid black;
-            padding: 10px;
-            text-align: center;
+            padding: 8px;
+        }
+        th {
+            font-weight: bold;
+            font-size: 1.2em;
         }
         caption {
             font-size: 1.5em;
             font-weight: bold;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
         }
     </style>
 </head>
 <body>
     <table>
         <caption>Student Details</caption>
-        <thead>
-            <tr>
-                <th>NAME</th>
-                <th>AGE</th>
-                <th>BRANCH</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>John Doe</td>
-                <td>20</td>
-                <td>Computer Science</td>
-            </tr>
-            <tr>
-                <td>Jane Smith</td>
-                <td>22</td>
-                <td>Electrical Engineering</td>
-            </tr>
-            <tr>
-                <td>Mike Johnson</td>
-                <td>21</td>
-                <td>Mechanical Engineering</td>
-            </tr>
-        </tbody>
+        <tr>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>BRANCH</th>
+        </tr>
+        <tr>
+            <td>Shaw</td>
+            <td>20</td>
+            <td>CSE</td>
+        </tr>
+        <tr>
+            <td>Adil</td>
+            <td>21</td>
+            <td>ECE</td>
+        </tr>
     </table>
 </body>
 </html>
